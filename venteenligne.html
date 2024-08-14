@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salesnow</title>
+    <link rel="stylesheet" href="venteenligne.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="shopping">Shopping Cart</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <label class="bb8-toggle">
+                            <input class="bb8-toggle__checkbox" type="checkbox">
+                            <div class="bb8-toggle__container">
+                                <div class="bb8-toggle__scenery">
+                                    <div class="bb8-toggle__star"></div>
+                                    <div class="bb8-toggle__star"></div>
+                                    <div class="bb8-toggle__star"></div>
+                                    <div class="bb8-toggle__star"></div>
+                                    <div class="bb8-toggle__star"></div>
+                                    <div class="bb8-toggle__star"></div>
+                                    <div class="bb8-toggle__star"></div>
+                                    <div class="tatto-1"></div>
+                                    <div class="tatto-2"></div>
+                                    <div class="gomrassen"></div>
+                                    <div class="hermes"></div>
+                                    <div class="chenini"></div>
+                                    <div class="bb8-toggle__cloud"></div>
+                                    <div class="bb8-toggle__cloud"></div>
+                                    <div class="bb8-toggle__cloud"></div>
+                                </div>
+                                <div class="bb8">
+                                    <div class="bb8__head-container">
+                                        <div class="bb8__antenna"></div>
+                                        <div class="bb8__antenna"></div>
+                                        <div class="bb8__head"></div>
+                                    </div>
+                                    <div class="bb8__body"></div>
+                                </div>
+                                <div class="artificial__hidden">
+                                    <div class="bb8__shadow"></div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="Price_calculation" style="padding-top: 5%; text-align: center;">
+        <h1> Total Price: <Span class="total-price">0</Span><span>$</span></h1>
+    </div>
+    <div style="display: flex; justify-content: space-around;">
+        <div class="card" style="width: 25%; height: 520px; text-align: center;">
+            <img width="100%" height="200px"
+                src="https://tunisiebio.tn/wp-content/uploads/2022/04/zrir-noisette-tunisiebio.jpg" class="zoomImg">
+            <h1 style="text-align:center;">Zrir</h1>
+            <br>
+            <p>This is the main traditional <br>sweet in tunisia: <br> Tunisian Bio Zrir with nuts</p>
+            <p><span class="unit-price">20</span> <span>$</span></p>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <i class="fa-solid fa-circle-plus plus-btn" style="font-size: 2rem;"></i>
+                <span style="margin-left: 5%; margin-right: 5%; text-align: center;" id="quantity">0</span>
+                <i class="fa-solid fa-circle-minus minus-btn" style="font-size: 2rem;"></i>
+            </div>
+            <hr>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <i class="fa-solid fa-trash" style="font-size: 2rem; margin-right: 10%;"></i>
+                <i class="fa-solid fa-heart" style="padding-bottom: 0%; font-size: 2rem;"></i>
+            </div>
+        </div>
+        <div class="card" style="width: 25%; height: 520px; text-align: center;">
+            <img width="100%" height="200px"
+                src="https://tse1.mm.bing.net/th/id/OIP.FfXObF3FgtAhaatJK1zqVwHaHa?rs=1&pid=ImgDetMain">
+            <h1 style="text-align:center;">Bsissa</h1>
+            <br>
+            <p>This is the old food <br>sweety and helathy in tunisia: <br> Tunisian Bio Bsissa</p>
+            <p><span class="unit-price">100</span><span>$</span></p>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <i class="fa-solid fa-circle-plus plus-btn" style="font-size: 2rem;"></i>
+                <span style="margin-left: 5%; margin-right: 5%;" id="quantity">0</span>
+                <i class="fa-solid fa-circle-minus minus-btn" style="font-size: 2rem;"></i>
+            </div>
+            <hr>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <i class="fa-solid fa-trash" style="font-size: 2rem; margin-right: 10%;"></i>
+                <i class="fa-solid fa-heart" style="padding-bottom: 0%; font-size: 2rem;"></i>
+            </div>
+        </div>
+        <div class="card" style="width: 25%; height: 520px; text-align: center;">
+            <img width="100%" height="200px"
+                src="https://www.cash-alimentaire.com/519-large_default/beurre-de-cacahuete-pot-340gr.jpg"
+                class="zoomImg">
+            <h1 style="text-align:center;">Cacahuèta</h1>
+            <br>
+            <p>This is the tasty <br>sweety in tunisia: <br> Tunisian Bio "Beurre de cacahète"</p>
+            <p><span class="unit-price">50</span> <span>$</span></p>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <i class="fa-solid fa-circle-plus plus-btn" style="font-size: 2rem;"></i>
+                <span style="margin-left: 5%; margin-right: 5%;" id="quantity">0</span>
+                <i class="fa-solid fa-circle-minus minus-btn" style="font-size: 2rem;"></i>
+            </div>
+            <hr>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <i class="fa-solid fa-trash" style="font-size: 2rem; margin-right: 10%;"></i>
+                <i class="fa-solid fa-heart" style="padding-bottom: 0%; font-size: 2rem;"></i>
+            </div>
+        </div>
+    </div>
+    <script src="venteenligne.js"></script>
+</body>
+
+</html>
